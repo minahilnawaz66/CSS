@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="auther" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no " />
+        <title>Form</title>
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+<body>
+    <h1>UI STYLE GUIDE </h1>
+    <marquee><h3> Fill the form and Grab your chance now </h3></marquee>
+    <div class="container">
+    <form action = "form.html" method = "GET">
+
+    <div class="row">
+      <div class="col-10">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-10">
+                <label for="email">Email</label>
+            </div>
+        <div class="col-75">
+            <input type="text" id="email" name="Email" placeholder="Your email.." required>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-10">
+                <label for="lname">Country</label>
+            </div>
+        <div class="col-75">
+            <input type="text" name="Country" value="Pakistan" readonly="readonly" /></td>
+        </div>
+    </div>
+
+      
+    <div>
+      <div class="row">
+          <div class="col-10">
+          <label for="State">State</label>
+          </div>
+          <div class="col-75">
+
+      <select id="State" name="State">
+  
+          <option value="-1">Select State:</option>
+          <option value="Punjab">Punjab</option>
+          <option value="Sindh">Sindh</option>
+          <option value="Balochistan">Balochistan</option>
+          <option value="KPK">KPK</option>
+          </select>
+          </div>
+      </div>
+   
+    <div>
+        <div class="row">
+            <div class="col-10">
+            <label for="City">City</label>
+            </div>
+            <div class="col-75">
+
+        <select id="City" name="City">
+    
+            <option value="-1">Select City:</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Peshawar">Peshawar</option>
+            <option value="Rawalpindi">Faisalabad</option>
+            <option value="Gujranwala">Gujranwala</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Vehari">Vehari</option>
+            <option value="Okara">Okara</option>
+            <option value="Sahiwal">Sahiwal</option>
+            <option value="Patoki">Patoki</option>
+            <option value="Sheikhpura">Sheikhpura</option>
+            </select>
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-10">
+                <label for="gender">Gender</label>
+            </div>
+            <div class="col-75">
+              <div class ="gender">
+                <input name="gender" type="radio" value="Male"> Male
+                <input name="gender" type="radio" value="Female"> Female
+              </div>
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-10">
+                <label for="pic">Upload Picture </label>
+                  
+            </div>
+            <div class="col-75">
+              <div class="picture">
+                <input type="file" id="myfile" name="myfile">
+              </div>
+            </div>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-10">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-10">
+          <div class = "remember">
+            <input type="checkbox" name="remember"> Remember me
+          </div>
+        </div>
+    </div>
+    <div class="row">
+     
+       <div class="buttn">
+          <input type="submit" value="Submit">
+      </div>   
+     
+      
+  </div>
+  <button>Default Button</button>
+  <a href="https:www.google.com" target = "blank" class="button">Link Button</a>
+  <input type="button" class="button" value="Input Button"> 
+  <button class="button button1">Outline Button</button>
+  <button class="button button2">Shadow button</button>
+  <button class="button button3">Red</button>
+  <button class="button disabled">Disabled Button</button>
+  <button class="button button4">Pressed effect</button>
+  <button class="button button5">Fade effect</button>
+
+
+    
+</form>
+</div>
+</body>
+
+</html>

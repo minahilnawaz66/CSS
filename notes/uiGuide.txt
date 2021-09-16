@@ -1,0 +1,65 @@
+       Absolute Path:
+        - http://domainName.com/dir/dir/fileName.css
+        - https://domainName.com/dir/dir/fileName.css
+        - https://www.domainName.com/dir/dir/fileName.css
+
+===================================================================
+        Relative Path:
+        ./dir/dir/dir/fileName.js
+        ../dir/fileName.css
+        /dir/dir/fileName.css
+        dir/fileName.css
+
+==================================================================
+
+../ for going back
+
+cd ../ on gitbash for going back
+================================================================
+
+body must attributes
+
+body {
+font-size:
+color:
+font-family:
+line-height:
+margin:
+padding:
+}
+
+==================================================================]
+
+body is root element 
+h1 automatically double
+
+anchor tag consists of href title , target is absolute always
+================================================================
+
+javascript:void(0)=> shows no behavior
+===============================================================
+
+<form action = " <filename> method "GET">
+
+TOP         
+RIGHT
+BOTTOM
+LEFT
+every property has clockwise behavior
+=================================================================
+margin : top right bottom left
+          0    0     0     0
+
+margin : top left/right bottom
+          0       0       0
+
+margin : top/bottom   left/right
+             0            0
+
+
+======================================================================
+
+you must have to provide width for aligning margin
+
+padding use for internal space of the element
+========================================================================

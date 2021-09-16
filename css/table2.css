@@ -1,0 +1,44 @@
+
+* {
+  box-sizing: border-box;
+}
+
+table{
+  border-spacing: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-style: solid;
+  border-color: rgb(68, 98, 233);
+  border-width: thick;
+  margin-top: 50px;
+}
+td,  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .columnCont{
+    background-color: #41ecf1;
+  }
+ th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2fdee4;
+    color: white;
+  }
+  .cont{
+    background-color: white;
+  }
+
+  
+ 
+    

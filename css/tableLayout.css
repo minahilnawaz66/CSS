@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    width : 75%;
+    border-radius: 5px;
+    margin-left : auto;
+    margin-right  : auto;
+    vertical-align: top;  
+
+}
+
+table, tr, td {
+    border: 1px solid rgba(228, 216, 216, 0.493);
+   
+}
+
+table {
+    width: 100%; 
+  
+}
+.contain {
+    border-color:rgb(167, 160, 160);
+    border-width: thick;
+
+}
+.aside{
+    width : 70%;
+    vertical-align: top;
+    border-color: rgb(101, 195, 212);
+    border-width: thick;
+}
+
+.div{
+    padding: 10px;
+    height :500px;
+    vertical-align: top;
+    border-style: solid;
+    border-color: rgb(247, 175, 149);
+    border-width: thick;
+}
+
+.aside2{
+    height: 350px;
+    width : 100%;
+    vertical-align: top;
+    border-style: solid;
+    border-color: rgb(101, 196, 212);
+    border-width: thick;
+}
+.header2{
+    width : 80%;
+    height: 50px;
+    border-color: green;
+    border-width: thick;
+}
+
+.blank{
+    height : 350px;
+    border-width : 0;
+}
+
+tr ,  td{
+    padding :10px;
+}
+.header{
+    border-style: solid;
+    border-color: rgb(101, 212, 143);
+    border-width: thick;
+}
+.nav{
+    border-style: solid;
+    border-color: rgb(243, 95, 199);
+    border-width: thick;
+}
+.section{
+    border-style: solid;
+    border-color: rgb(243, 146, 211);
+    border-width: thick;
+}
+.footer{
+    border-style: solid;
+    border-color: rgb(226, 224, 111);
+    border-width: thick;
+}
